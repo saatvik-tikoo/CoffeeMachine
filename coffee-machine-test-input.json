@@ -1,3 +1,8 @@
+// I will suggest to use two separate files. One for inventory and one for CoffeeMachine Configs. Like remove the number of outlets from this file.
+// Also In my opinion this should be purely an inventory file. There should not be a mapping between incredients and drinks.
+// If we are using dict for mapping instead of class, still create a separate json for that.
+
+// Majore design choice if the coffeeMake should care about what drink it can make? Now I feel like you might be right
 {
   "machine": {
     "outlets": {

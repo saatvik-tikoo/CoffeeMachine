@@ -46,3 +46,12 @@ green_tea cannot be prepared, sugar_syrup is not sufficient
 (venv) $ 
 
 ```
+
+
+## Others things that can be added:
+1. Logging
+2. Pytests
+3. Explain you design choices
+4. Maybe add a .gitignore
+5. If you will be using logger then talking about virtual env in Readme
+6.  For each funct define args and return vals

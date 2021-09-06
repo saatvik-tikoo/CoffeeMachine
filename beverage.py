@@ -1,7 +1,8 @@
 class Beverage:
     def __init__(self, beverage_name, all_ingredients):
         self.beverage_name = beverage_name
-
+        # No need of this check again
+        # Another thing is your whole code revolves around the coffeeMAke not knowing what drinks to make. But here you are creating a dependency, which I think is bad
         if isinstance(all_ingredients, dict):
             self.ingredients = dict()
             self.ingredients["hot_water"] = all_ingredients.get("hot_water")
